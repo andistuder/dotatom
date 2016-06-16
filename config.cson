@@ -1,4 +1,5 @@
 "*":
+  "atom-beautify": {}
   "atom-fuzzy-grep": {}
   core:
     disabledPackages: [
@@ -6,9 +7,10 @@
       "linter-ruby"
     ]
   editor:
-    fontSize: 16
+    fontSize: 12
     invisibles: {}
     preferredLineLength: 110
+    tabType: "soft"
   linter: {}
   "ruby-test":
     cucumberAllCommand: "bundle exec cucumber --color features"
@@ -17,6 +19,7 @@
     rspecAllCommand: "bundle exec rspec --tty spec"
     rspecFileCommand: "bundle exec rspec --tty {relative_path}"
     rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: false
   welcome:
     showOnStartup: false
