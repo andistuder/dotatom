@@ -19,7 +19,9 @@
     rspecAllCommand: "bundle exec rspec --tty spec"
     rspecFileCommand: "bundle exec rspec --tty {relative_path}"
     rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
-  "tree-view":
-    hideVcsIgnoredFiles: false
+  "tree-view": {}
   welcome:
     showOnStartup: false
+".json.source":
+  editor:
+    preferredLineLength: 110
