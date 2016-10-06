@@ -3,10 +3,6 @@
   "atom-fuzzy-grep": {}
   core:
     destroyEmptyPanes: false
-    disabledPackages: [
-      "linter"
-      "linter-ruby"
-    ]
     themes: [
       "one-light-ui"
       "one-light-syntax"
