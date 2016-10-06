@@ -2,6 +2,7 @@
   "atom-beautify": {}
   "atom-fuzzy-grep": {}
   core:
+    destroyEmptyPanes: false
     disabledPackages: [
       "linter"
       "linter-ruby"
@@ -25,6 +26,18 @@
   "tree-view": {}
   welcome:
     showOnStartup: false
+".js.regexp.replacement.source":
+  editor:
+    preferredLineLength: 110
+    tabLength: 4
+".js.regexp.source":
+  editor:
+    preferredLineLength: 110
+    tabLength: 4
+".js.source":
+  editor:
+    preferredLineLength: 110
+    tabLength: 4
 ".json.source":
   editor:
     preferredLineLength: 110
