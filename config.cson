@@ -12,6 +12,8 @@
     preferredLineLength: 110
     tabType: "soft"
   linter: {}
+  "mocha-test-runner":
+    env: "NODE_ENV=development"
   "ruby-test":
     cucumberAllCommand: "bundle exec cucumber --color features"
     cucumberFileCommand: "bundle exec cucumber --color {relative_path}"
