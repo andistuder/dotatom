@@ -1,41 +1,11 @@
 "*":
-  "atom-beautify": {}
-  "atom-fuzzy-grep": {}
   core:
-    destroyEmptyPanes: false
+    telemetryConsent: "limited"
     themes: [
       "one-light-ui"
       "one-light-syntax"
     ]
-  editor:
-    invisibles: {}
-    preferredLineLength: 110
-    tabType: "soft"
-  linter: {}
-  "mocha-test-runner":
-    env: "NODE_ENV=development"
-  "ruby-test":
-    cucumberAllCommand: "bundle exec cucumber --color features"
-    cucumberFileCommand: "bundle exec cucumber --color {relative_path}"
-    cucumberSingleCommand: "bundle exec cucumber --color {relative_path}:{line_number}"
-    rspecAllCommand: "bundle exec rspec --tty spec"
-    rspecFileCommand: "bundle exec rspec --tty {relative_path}"
-    rspecSingleCommand: "bundle exec rspec --tty {relative_path}:{line_number}"
-  "tree-view": {}
-  welcome:
-    showOnStartup: false
-".js.regexp.replacement.source":
-  editor:
-    preferredLineLength: 110
-    tabLength: 4
-".js.regexp.source":
-  editor:
-    preferredLineLength: 110
-    tabLength: 4
-".js.source":
-  editor:
-    preferredLineLength: 110
-    tabLength: 4
-".json.source":
-  editor:
-    preferredLineLength: 110
+  "exception-reporting":
+    userId: "bd210b72-091d-4ecb-b89a-4c579d2c412b"
+  "linter-ui-default":
+    panelHeight: 69
