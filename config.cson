@@ -1,9 +1,8 @@
 "*":
   "atom-beautify":
-    ejs: {}
     general:
-      _analyticsUserId: "6dcddc4b-007e-4f27-9f9c-efa658418bce"
-    js:
+      _analyticsUserId: "81a21df9-bb0f-4963-b9bc-f91f095c116d"
+    json:
       indent_size: 4
   core:
     telemetryConsent: "limited"
@@ -11,15 +10,24 @@
       "one-light-ui"
       "one-light-syntax"
     ]
-  editor: {}
+  editor:
+    fontSize: 15
+    preferredLineLength: 110
+    tabType: "soft"
   "exception-reporting":
-    userId: "bd210b72-091d-4ecb-b89a-4c579d2c412b"
-  "linter-ui-default":
-    panelHeight: 69
+    userId: "3511aeb7-63cc-46b5-b6b3-ab6dc298d304"
   "mocha-test-runner":
-    env: "NODE_ENV=development"
+    options: "--exit"
+  "platformio-ide-terminal":
+    style:
+      theme: "one-dark"
+  "tree-view": {}
   welcome:
     showOnStartup: false
 ".js.source":
+  editor:
+    tabLength: 4
+    tabType: "auto"
+".json.source":
   editor:
     tabLength: 4
