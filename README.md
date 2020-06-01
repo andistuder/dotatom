@@ -1,4 +1,4 @@
-# Funding Circle Atom configuration
+# Atom configuration
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ Note: This will wipe out any existing Atom configurations that you have.
 
 ```bash
 mv ~/.atom ~/.atom_bak
-git clone git@github.com:FundingCircle/dotatom.git ~/.atom
+git clone git@github.com:andistuder/dotatom.git ~/.atom
 ```
 
 Install the Atom packages by running:
